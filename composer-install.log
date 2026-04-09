@@ -1,0 +1,429 @@
+Running 2.9.5 (2026-01-29 11:40:53) with PHP 8.3.17 on Windows NT / 10.0
+Reading ./composer.json (C:\PROJETOS\php-projeto\composer.json)
+Loading config file ./composer.json (C:\PROJETOS\php-projeto\composer.json)
+Checked CA file /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem does not exist or it is not a file.
+Checked directory /etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem does not exist or it is not a directory.
+Checked CA file /etc/pki/tls/certs/ca-bundle.crt does not exist or it is not a file.
+Checked directory /etc/pki/tls/certs/ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /etc/ssl/certs/ca-certificates.crt does not exist or it is not a file.
+Checked directory /etc/ssl/certs/ca-certificates.crt does not exist or it is not a directory.
+Checked CA file /etc/ssl/ca-bundle.pem does not exist or it is not a file.
+Checked directory /etc/ssl/ca-bundle.pem does not exist or it is not a directory.
+Checked CA file /usr/ssl/certs/ca-bundle.crt does not exist or it is not a file.
+Checked directory /usr/ssl/certs/ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /opt/local/share/curl/curl-ca-bundle.crt does not exist or it is not a file.
+Checked directory /opt/local/share/curl/curl-ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /usr/local/share/curl/curl-ca-bundle.crt does not exist or it is not a file.
+Checked directory /usr/local/share/curl/curl-ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /usr/share/ssl/certs/ca-bundle.crt does not exist or it is not a file.
+Checked directory /usr/share/ssl/certs/ca-bundle.crt does not exist or it is not a directory.
+Checked CA file /etc/ssl/cert.pem does not exist or it is not a file.
+Checked directory /etc/ssl/cert.pem does not exist or it is not a directory.
+Checked CA file /usr/local/etc/openssl/cert.pem does not exist or it is not a file.
+Checked directory /usr/local/etc/openssl/cert.pem does not exist or it is not a directory.
+Checked CA file /usr/local/etc/openssl@1.1/cert.pem does not exist or it is not a file.
+Checked directory /usr/local/etc/openssl@1.1/cert.pem does not exist or it is not a directory.
+Checked CA file /opt/homebrew/etc/openssl@3/cert.pem does not exist or it is not a file.
+Checked directory /opt/homebrew/etc/openssl@3/cert.pem does not exist or it is not a directory.
+Checked CA file /opt/homebrew/etc/openssl@1.1/cert.pem does not exist or it is not a file.
+Checked directory /opt/homebrew/etc/openssl@1.1/cert.pem does not exist or it is not a directory.
+Checked CA file /etc/pki/tls/certs does not exist or it is not a file.
+Checked directory /etc/pki/tls/certs does not exist or it is not a directory.
+Checked CA file /etc/ssl/certs does not exist or it is not a file.
+Checked directory /etc/ssl/certs does not exist or it is not a directory.
+Checked CA file C:\Users\Jo├úo Paulo\AppData\Local\Temp\opeC15B.tmp: valid
+Executing command (CWD): git --version
+Executing command (C:\PROJETOS\php-projeto): git branch -a --no-color --no-abbrev -v
+Failed to initialize global composer: Composer could not find the config file: C:/Users/Jo├úo Paulo/AppData/Roaming/Composer/composer.json
+
+Reading C:\PROJETOS\php-projeto/vendor/composer/installed.json (C:\PROJETOS\php-projeto\vendor\composer\installed.json)
+Reading ./composer.lock (C:\PROJETOS\php-projeto\composer.lock)
+Installing dependencies from lock file (including require-dev)
+Verifying lock file contents can be installed on current platform.
+Reading ./composer.lock (C:\PROJETOS\php-projeto\composer.lock)
+Built pool.
+Generating rules
+Resolving dependencies through SAT
+Looking at all rules.
+
+Dependency resolution completed in 0.001 seconds
+Package operations: 90 installs, 0 updates, 0 removals
+Installs: symfony/polyfill-ctype:v1.33.0, symfony/string:v7.4.8, symfony/service-contracts:v3.6.1, symfony/console:v7.4.8, nunomaduro/termwind:v2.4.0, voku/portable-ascii:2.0.3, phpoption/phpoption:1.9.5, graham-campbell/result-type:v1.1.4, vlucas/phpdotenv:v5.6.3, symfony/css-selector:v7.4.8, tijsverkoyen/css-to-inline-styles:v2.4.0, symfony/var-dumper:v7.4.8, symfony/polyfill-uuid:v1.33.0, symfony/uid:v7.4.8, symfony/routing:v7.4.8, symfony/process:v7.4.8, symfony/polyfill-php83:v1.33.0, symfony/polyfill-intl-idn:v1.33.0, symfony/mime:v7.4.8, psr/event-dispatcher:1.0.0, symfony/event-dispatcher-contracts:v3.6.0, symfony/event-dispatcher:v7.4.8, psr/log:3.0.2, egulias/email-validator:4.0.4, symfony/mailer:v7.4.8, symfony/polyfill-php85:v1.33.0, symfony/error-handler:v7.4.8, symfony/http-kernel:v7.4.8, symfony/finder:v7.4.8, ramsey/collection:2.1.1, brick/math:0.14.8, ramsey/uuid:4.9.2, psr/simple-cache:3.0.0, symfony/translation-contracts:v3.6.1, symfony/translation:v7.4.8, psr/clock:1.0.0, symfony/clock:v7.4.8, carbonphp/carbon-doctrine-types:3.2.0, nesbot/carbon:3.11.4, monolog/monolog:3.10.0, league/uri-interfaces:7.8.1, league/uri:7.8.1, league/mime-type-detection:1.16.0, league/flysystem-local:3.31.0, league/flysystem:3.33.0, nette/utils:v4.1.3, nette/schema:v1.3.5, dflydev/dot-access-data:v3.0.3, league/config:v1.2.0, league/commonmark:2.8.2, laravel/serializable-closure:v2.0.11, laravel/prompts:v0.3.16, laravel/framework:v11.51.0, laravel/pail:v1.2.6, laravel/pint:v1.29.0, symfony/yaml:v7.4.8, laravel/sail:v1.56.0, nikic/php-parser:v5.7.0, psy/psysh:v0.12.22, laravel/tinker:v2.11.1, hamcrest/hamcrest-php:v2.1.1, mockery/mockery:1.6.12, filp/whoops:2.18.4, nunomaduro/collision:v8.9.3, staabm/side-effects-detector:1.0.5, sebastian/version:5.0.2, sebastian/type:5.1.3, sebastian/recursion-context:6.0.3, sebastian/object-reflector:4.0.1, sebastian/object-enumerator:6.0.1, sebastian/global-state:7.0.2, sebastian/exporter:6.3.2, sebastian/environment:7.2.1, sebastian/diff:6.0.2, sebastian/comparator:6.3.3, sebastian/code-unit:3.0.3, sebastian/cli-parser:3.0.2, phpunit/php-timer:7.0.1, phpunit/php-text-template:4.0.1, phpunit/php-invoker:5.0.1, phpunit/php-file-iterator:5.1.1, theseer/tokenizer:1.3.1, sebastian/lines-of-code:3.0.1, sebastian/complexity:4.0.1, sebastian/code-unit-reverse-lookup:4.0.1, phpunit/php-code-coverage:11.0.12, phar-io/version:3.2.1, phar-io/manifest:2.0.4, myclabs/deep-copy:1.13.4, phpunit/phpunit:11.5.55
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/polyfill-ctype/bc53d8673d3aba9f82416a0c7c5c9d0c27150b84.zip from cache
+  - Loading symfony/polyfill-ctype (v1.33.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/string/6a77ebf2eba6e3da2bd881e65e39492ddc20c9a4.zip from cache
+  - Loading symfony/string (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/service-contracts/76b5cb3da3a568a2f1ba3b8320cda5886b6b4764.zip from cache
+  - Loading symfony/service-contracts (v3.6.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/console/411f0705eed4de69834f334080e709e4ce2d95f7.zip from cache
+  - Loading symfony/console (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/nunomaduro/termwind/4a2a023672cce6e15816f8b17ea60f7d291a9df4.zip from cache
+  - Loading nunomaduro/termwind (v2.4.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/voku/portable-ascii/7fb56572e26172b3fe9f2dade6a7fa006bc6bc3d.zip from cache
+  - Loading voku/portable-ascii (2.0.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phpoption/phpoption/43e8b20d78e495256024784f99c6c21805103630.zip from cache
+  - Loading phpoption/phpoption (1.9.5) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/graham-campbell/result-type/a1f84f24adc049be760154bdf697ecd55b219a5b.zip from cache
+  - Loading graham-campbell/result-type (v1.1.4) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/vlucas/phpdotenv/aad6e85e7b1459ef2569f5d14341fe4e69994436.zip from cache
+  - Loading vlucas/phpdotenv (v5.6.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/css-selector/add318443848f4a75dbcdbed51dbda6863bd65ea.zip from cache
+  - Loading symfony/css-selector (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/tijsverkoyen/css-to-inline-styles/491a0c1ac48e787202723cfde4e1dbf3b17c78ec.zip from cache
+  - Loading tijsverkoyen/css-to-inline-styles (v2.4.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/var-dumper/2d186bbfc416de192b0f41308b51041ee8c7b583.zip from cache
+  - Loading symfony/var-dumper (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/polyfill-uuid/38f3a431ab9147ea0df76e4db120628a54cf13ec.zip from cache
+  - Loading symfony/polyfill-uuid (v1.33.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/uid/bdfb5f3f84b37e2842fd7e59b962c26a009cbd9d.zip from cache
+  - Loading symfony/uid (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/routing/567bed1498e6b948fd3b037ccd433b8e16c1d4b2.zip from cache
+  - Loading symfony/routing (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/process/d785921b6e8aaba9e270f3a6c82af5b235e06e96.zip from cache
+  - Loading symfony/process (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/polyfill-php83/58f6b5fa927ea8a27dec838fa03d568ab07bc0d5.zip from cache
+  - Loading symfony/polyfill-php83 (v1.33.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/polyfill-intl-idn/805877f0ed53fba8b473f9cbf2fcb25da45ccc5f.zip from cache
+  - Loading symfony/polyfill-intl-idn (v1.33.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/mime/aece9c6faae8e2c5e1ae04ee0d0dc44b7f77c3c2.zip from cache
+  - Loading symfony/mime (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/psr/event-dispatcher/8f60a8cd1b7ff4e8f9782d70d78dee877a526529.zip from cache
+  - Loading psr/event-dispatcher (1.0.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/event-dispatcher-contracts/d545b055747fbe7e21474979be0fb6654a624d6c.zip from cache
+  - Loading symfony/event-dispatcher-contracts (v3.6.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/event-dispatcher/1651f190735f201689802dea3da5155c590c8754.zip from cache
+  - Loading symfony/event-dispatcher (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/psr/log/2961e31604f4f4de116b458f772c4aa21861c5b4.zip from cache
+  - Loading psr/log (3.0.2) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/egulias/email-validator/2325f9b713443a41bdd9cae876fc640df65c0c85.zip from cache
+  - Loading egulias/email-validator (4.0.4) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/mailer/42507fa184c50e7f974a01f59e475e7c55b6e4fe.zip from cache
+  - Loading symfony/mailer (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/polyfill-php85/9ee038d45df3556dc9bd012e80c104679a646967.zip from cache
+  - Loading symfony/polyfill-php85 (v1.33.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/error-handler/5137f8cbe64c1244a75a46032451f5e0d2807d82.zip from cache
+  - Loading symfony/error-handler (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/http-kernel/d29b77963e07e137d3ecb5caa7d7d7cd9b704c51.zip from cache
+  - Loading symfony/http-kernel (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/finder/72c81d1d6da2def781a6bfc753b4b4ae067d6493.zip from cache
+  - Loading symfony/finder (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/ramsey/collection/435c62c1e67306fd98f8f2041369a0e33486e402.zip from cache
+  - Loading ramsey/collection (2.1.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/brick/math/70dbe0b7b01787da692e4559a06c0361518d9437.zip from cache
+  - Loading brick/math (0.14.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/ramsey/uuid/ed70e28aa85f534b7ceeadece831c7697f6dc655.zip from cache
+  - Loading ramsey/uuid (4.9.2) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/psr/simple-cache/f30344b376a5fb0289c0491e8df6aba973ba12aa.zip from cache
+  - Loading psr/simple-cache (3.0.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/translation-contracts/66ef0dd551461a7cd9b76dc3577751cfe0494ff6.zip from cache
+  - Loading symfony/translation-contracts (v3.6.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/translation/f90b151b37b58517d2f08d01f767d33a43c39e0d.zip from cache
+  - Loading symfony/translation (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/psr/clock/82bf02e3a8f1b35169f8d27aa93a171ae387f779.zip from cache
+  - Loading psr/clock (1.0.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/clock/bdb8e2e6adcd50d10e984a7c7a8d47d9de0d4a7d.zip from cache
+  - Loading symfony/clock (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/carbonphp/carbon-doctrine-types/286125b8cb4236eb7b47111dd10174556e6c6c40.zip from cache
+  - Loading carbonphp/carbon-doctrine-types (3.2.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/nesbot/carbon/3876ce1d6165f61352e0fa37bfa1cc0301278d78.zip from cache
+  - Loading nesbot/carbon (3.11.4) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/monolog/monolog/f122a427be3df67711b2b7eec72424c7885ca351.zip from cache
+  - Loading monolog/monolog (3.10.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/league/uri-interfaces/5bf9f6f92e18c2023b5a7a130aa1cf5c6d905f0c.zip from cache
+  - Loading league/uri-interfaces (7.8.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/league/uri/8595c96878f95bc2aea2b79ae3c4edcd22dfd71d.zip from cache
+  - Loading league/uri (7.8.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/league/mime-type-detection/f8034a72fe0e8ceaee4178d7e8c47fbcedde0de3.zip from cache
+  - Loading league/mime-type-detection (1.16.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/league/flysystem-local/44dbfe6eaffc82ddcf3c75d0638ddcf844e258f8.zip from cache
+  - Loading league/flysystem-local (3.31.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/league/flysystem/ebbf96ea47334864d02b3f0321d70c3b42957064.zip from cache
+  - Loading league/flysystem (3.33.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/nette/utils/c0e9956eb7cbb1cf7c66cdc516430dccaade2909.zip from cache
+  - Loading nette/utils (v4.1.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/nette/schema/846a52f603883b496904c9840627de5c9dc38b7c.zip from cache
+  - Loading nette/schema (v1.3.5) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/dflydev/dot-access-data/8e9712a1156060a9ec9f7b0065af4d53d0cda750.zip from cache
+  - Loading dflydev/dot-access-data (v3.0.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/league/config/63acc0c0da84dd8710b3a4e58a6a4e393530da19.zip from cache
+  - Loading league/config (v1.2.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/league/commonmark/807a4eec5d049dbaf9a61635a5d2bcb04eeaea1d.zip from cache
+  - Loading league/commonmark (2.8.2) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/laravel/serializable-closure/dbccca603edf35d226d5866ac15559ad7837e67f.zip from cache
+  - Loading laravel/serializable-closure (v2.0.11) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/laravel/prompts/859363e786d2f5031a97df79d8c8c43a7d0abde1.zip from cache
+  - Loading laravel/prompts (v0.3.16) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/laravel/framework/23f74a0200aace5651d034ffd414ceae740d74ee.zip from cache
+  - Loading laravel/framework (v11.51.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/laravel/pail/c1c4852492dff22c542266927443240eb7e98db2.zip from cache
+  - Loading laravel/pail (v1.2.6) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/laravel/pint/d541fc704cb907c4bafaad52fca24b6d16862db3.zip from cache
+  - Loading laravel/pint (v1.29.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/symfony/yaml/bf837dd49c5e685eb12ba917948f9552ab7d7bfe.zip from cache
+  - Loading symfony/yaml (v7.4.8) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/laravel/sail/7e0d7d948efb8710b063d0cb183432c861d8cd62.zip from cache
+  - Loading laravel/sail (v1.56.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/nikic/php-parser/eecef6fca6829dd46d9d3b42d464f7f003db03e2.zip from cache
+  - Loading nikic/php-parser (v5.7.0) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/psy/psysh/02391a355c7266beb7a35abfe6281c376289eb47.zip from cache
+  - Loading psy/psysh (v0.12.22) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/laravel/tinker/3e4ead16e03bf9bb79d3eacf4c42dd0f6a8098bc.zip from cache
+  - Loading laravel/tinker (v2.11.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/hamcrest/hamcrest-php/7ac05900d9d3c4092f0c5ff3f56676f924aca22f.zip from cache
+  - Loading hamcrest/hamcrest-php (v2.1.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/mockery/mockery/1437e1bfd21d9aac832ae175368b2cee0e9d3719.zip from cache
+  - Loading mockery/mockery (1.6.12) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/filp/whoops/ffb10c1355c103bdb6b22ae1a7bf86d208826083.zip from cache
+  - Loading filp/whoops (2.18.4) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/nunomaduro/collision/13a0f851d15556f8452898288fffcc83abfdddcc.zip from cache
+  - Loading nunomaduro/collision (v8.9.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/staabm/side-effects-detector/1bf967123c8eab6ad3b7d10ead807723f1487787.zip from cache
+  - Loading staabm/side-effects-detector (1.0.5) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/version/9ddbebb2770481511eebf896351b698dbecd27a2.zip from cache
+  - Loading sebastian/version (5.0.2) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/type/c6434468ffbe290c2d799c4685a8a43b9eca5810.zip from cache
+  - Loading sebastian/type (5.1.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/recursion-context/46e9bd9ce336eb48003f49f17c801f4e9c0041d7.zip from cache
+  - Loading sebastian/recursion-context (6.0.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/object-reflector/b2aeb04d3fb5de6adb035b4a337b85f005260f1e.zip from cache
+  - Loading sebastian/object-reflector (4.0.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/object-enumerator/73bb37c12489ebeda374915dc48be1b969d6fc08.zip from cache
+  - Loading sebastian/object-enumerator (6.0.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/global-state/b54b251ba4c376fe9a45e0fc562f49a74f58ef37.zip from cache
+  - Loading sebastian/global-state (7.0.2) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/exporter/ae15d093bd539f8c9df1e68841b0091ef1aefea5.zip from cache
+  - Loading sebastian/exporter (6.3.2) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/environment/cf5ab7f5fe47d4e3f2f06963fc54f445437e07b5.zip from cache
+  - Loading sebastian/environment (7.2.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/diff/4d29218c6f97167a77d625595048d51bd7bd6db7.zip from cache
+  - Loading sebastian/diff (6.0.2) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/comparator/cbe10657e101ada0c28206e919bec9a38f848d8d.zip from cache
+  - Loading sebastian/comparator (6.3.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/code-unit/947384bfe4963b28ba6df88b7f8535d68314519a.zip from cache
+  - Loading sebastian/code-unit (3.0.3) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/cli-parser/7917b42dccf77da5de05886328cbe90c9c6e9fe1.zip from cache
+  - Loading sebastian/cli-parser (3.0.2) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phpunit/php-timer/2645f4227496336a2aeb8bec0d8e3f16e20fd3f9.zip from cache
+  - Loading phpunit/php-timer (7.0.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phpunit/php-text-template/f890fdccec46940b4633ad050967fc9e1ba119d4.zip from cache
+  - Loading phpunit/php-text-template (4.0.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phpunit/php-invoker/fa21284bd3106889eb5c308e4f8977dcef31b122.zip from cache
+  - Loading phpunit/php-invoker (5.0.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phpunit/php-file-iterator/422245dcbd611339716ab749b013738aa6c8a17c.zip from cache
+  - Loading phpunit/php-file-iterator (5.1.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/theseer/tokenizer/447a6cd5e755ca245b2193551de2428ee70ed16c.zip from cache
+  - Loading theseer/tokenizer (1.3.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/lines-of-code/40e8c68a54c248cd88c0c780f1bcee0e988b9921.zip from cache
+  - Loading sebastian/lines-of-code (3.0.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/complexity/b30b4cd96bb79d012e4c35ce2e0897e9fa3a4fb2.zip from cache
+  - Loading sebastian/complexity (4.0.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/sebastian/code-unit-reverse-lookup/e647f1c3c3ac8eea993465f59c793cde56424acd.zip from cache
+  - Loading sebastian/code-unit-reverse-lookup (4.0.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phpunit/php-code-coverage/2d517a1e0d9b179c305c1a4d910e0a4b159cebcb.zip from cache
+  - Loading phpunit/php-code-coverage (11.0.12) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phar-io/version/1495d1d88b1ae7e031b437037ce96298d897a969.zip from cache
+  - Loading phar-io/version (3.2.1) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phar-io/manifest/76bff606ca30e559b645a1f35d005f1f29c3c86e.zip from cache
+  - Loading phar-io/manifest (2.0.4) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/myclabs/deep-copy/ee382bea4b497f734eb64325af8725e5f3ffc151.zip from cache
+  - Loading myclabs/deep-copy (1.13.4) from cache
+Reading C:/Users/Jo├úo Paulo/AppData/Local/Composer/files/phpunit/phpunit/a21455e7ce6aeea66fd7e50e8c1d8fbcc77d97cf.zip from cache
+  - Loading phpunit/phpunit (11.5.55) from cache
+  - Installing symfony/polyfill-ctype (v1.33.0): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\3250927d
+  - Installing symfony/string (v7.4.8): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\05e24dbe
+  - Installing symfony/service-contracts (v3.6.1): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\9f7bef0c
+  - Installing symfony/console (v7.4.8): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\a2da09c5
+  - Installing nunomaduro/termwind (v2.4.0): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\f214aa33
+  - Installing voku/portable-ascii (2.0.3): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\afc4123c
+  - Installing phpoption/phpoption (1.9.5): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\fc79ea51
+  - Installing graham-campbell/result-type (v1.1.4): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\246eb8ee
+  - Installing vlucas/phpdotenv (v5.6.3): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\fd45afe9
+  - Installing symfony/css-selector (v7.4.8): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\8be062a0
+  - Installing tijsverkoyen/css-to-inline-styles (v2.4.0): Extracting archive
+  - Installing symfony/var-dumper (v7.4.8): Extracting archive
+  - Installing symfony/polyfill-uuid (v1.33.0): Extracting archive
+  - Installing symfony/uid (v7.4.8): Extracting archive
+  - Installing symfony/routing (v7.4.8): Extracting archive
+  - Installing symfony/process (v7.4.8): Extracting archive
+  - Installing symfony/polyfill-php83 (v1.33.0): Extracting archive
+  - Installing symfony/polyfill-intl-idn (v1.33.0): Extracting archive
+  - Installing symfony/mime (v7.4.8): Extracting archive
+  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+  - Installing symfony/event-dispatcher-contracts (v3.6.0): Extracting archive
+  - Installing symfony/event-dispatcher (v7.4.8): Extracting archive
+  - Installing psr/log (3.0.2): Extracting archive
+  - Installing egulias/email-validator (4.0.4): Extracting archive
+  - Installing symfony/mailer (v7.4.8): Extracting archive
+  - Installing symfony/polyfill-php85 (v1.33.0): Extracting archive
+  - Installing symfony/error-handler (v7.4.8): Extracting archive
+  - Installing symfony/http-kernel (v7.4.8): Extracting archive
+  - Installing symfony/finder (v7.4.8): Extracting archive
+  - Installing ramsey/collection (2.1.1): Extracting archive
+  - Installing brick/math (0.14.8): Extracting archive
+  - Installing ramsey/uuid (4.9.2): Extracting archive
+  - Installing psr/simple-cache (3.0.0): Extracting archive
+  - Installing symfony/translation-contracts (v3.6.1): Extracting archive
+  - Installing symfony/translation (v7.4.8): Extracting archive
+  - Installing psr/clock (1.0.0): Extracting archive
+  - Installing symfony/clock (v7.4.8): Extracting archive
+  - Installing carbonphp/carbon-doctrine-types (3.2.0): Extracting archive
+  - Installing nesbot/carbon (3.11.4): Extracting archive
+  - Installing monolog/monolog (3.10.0): Extracting archive
+  - Installing league/uri-interfaces (7.8.1): Extracting archive
+  - Installing league/uri (7.8.1): Extracting archive
+  - Installing league/mime-type-detection (1.16.0): Extracting archive
+  - Installing league/flysystem-local (3.31.0): Extracting archive
+  - Installing league/flysystem (3.33.0): Extracting archive
+  - Installing nette/utils (v4.1.3): Extracting archive
+  - Installing nette/schema (v1.3.5): Extracting archive
+  - Installing dflydev/dot-access-data (v3.0.3): Extracting archive
+  - Installing league/config (v1.2.0): Extracting archive
+  - Installing league/commonmark (2.8.2): Extracting archive
+  - Installing laravel/serializable-closure (v2.0.11): Extracting archive
+  - Installing laravel/prompts (v0.3.16): Extracting archive
+  - Installing laravel/framework (v11.51.0): Extracting archive
+  - Installing laravel/pail (v1.2.6): Extracting archive
+  - Installing laravel/pint (v1.29.0): Extracting archive
+  - Installing symfony/yaml (v7.4.8): Extracting archive
+  - Installing laravel/sail (v1.56.0): Extracting archive
+  - Installing nikic/php-parser (v5.7.0): Extracting archive
+  - Installing psy/psysh (v0.12.22): Extracting archive
+  - Installing laravel/tinker (v2.11.1): Extracting archive
+  - Installing hamcrest/hamcrest-php (v2.1.1): Extracting archive
+  - Installing mockery/mockery (1.6.12): Extracting archive
+  - Installing filp/whoops (2.18.4): Extracting archive
+  - Installing nunomaduro/collision (v8.9.3): Extracting archive
+  - Installing staabm/side-effects-detector (1.0.5): Extracting archive
+  - Installing sebastian/version (5.0.2): Extracting archive
+  - Installing sebastian/type (5.1.3): Extracting archive
+  - Installing sebastian/recursion-context (6.0.3): Extracting archive
+  - Installing sebastian/object-reflector (4.0.1): Extracting archive
+  - Installing sebastian/object-enumerator (6.0.1): Extracting archive
+  - Installing sebastian/global-state (7.0.2): Extracting archive
+  - Installing sebastian/exporter (6.3.2): Extracting archive
+  - Installing sebastian/environment (7.2.1): Extracting archive
+  - Installing sebastian/diff (6.0.2): Extracting archive
+  - Installing sebastian/comparator (6.3.3): Extracting archive
+  - Installing sebastian/code-unit (3.0.3): Extracting archive
+  - Installing sebastian/cli-parser (3.0.2): Extracting archive
+  - Installing phpunit/php-timer (7.0.1): Extracting archive
+  - Installing phpunit/php-text-template (4.0.1): Extracting archive
+  - Installing phpunit/php-invoker (5.0.1): Extracting archive
+  - Installing phpunit/php-file-iterator (5.1.1): Extracting archive
+  - Installing theseer/tokenizer (1.3.1): Extracting archive
+  - Installing sebastian/lines-of-code (3.0.1): Extracting archive
+  - Installing sebastian/complexity (4.0.1): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (4.0.1): Extracting archive
+  - Installing phpunit/php-code-coverage (11.0.12): Extracting archive
+  - Installing phar-io/version (3.2.1): Extracting archive
+  - Installing phar-io/manifest (2.0.4): Extracting archive
+  - Installing myclabs/deep-copy (1.13.4): Extracting archive
+  - Installing phpunit/phpunit (11.5.55): Extracting archive
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\f0c8a163
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\f1329ddb
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\5ae77d09
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\c27ac882
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\6f2fb789
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\30be924e
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\070570b4
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\ef2b3e31
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\c70c349b
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\8eec1e52
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\774d63d7
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\25995b32
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\a29ce096
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\2f3f1518
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\7ba3ad6f
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\c94b02df
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\ded932c1
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\1aad4fe8
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\9aeb0488
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\33cd4f44
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\97ed4a25
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\21bc951a
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\03bcff04
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\294ed353
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\e6dbda10
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\d16ce94b
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\6efdf8ea
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\61122ac1
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\4b777fa2
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\b4fd2501
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\4a43c661
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\9007b6d0
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\5570736f
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\59d887c5
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\8f33cb7c
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\e0ba5b87
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\fb24f953
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\918210d9
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\d7c7bca5
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\7979562f
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\36aabb5a
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\34d44834
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\c3f9ebd7
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\e1b75bee
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\9f65431e
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\15f8a7e5
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\b3d3de78
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\c6121cf7
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\427fc93f
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\64c1ed50
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\75176aca
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\b2171326
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\b69de474
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\dc97e98c
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\d5f95c5b
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\67b49310
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\bb8a051d
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\ff1f55c0
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\472fbec5
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\99e5661b
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\9933f49d
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\3eb716b9
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\54715fdd
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\7ab7099e
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\90129418
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\d81e42bc
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\6e798db4
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\b76ee8b1
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\cc7833b6
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\0b94748a
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\d73bd537
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\5f342c83
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\27dbe888
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\b769fcad
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\ce56a48f
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\5f2290ba
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\6154fdf4
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\07d3ba0e
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\7af81579
+Executing async command (CWD): rmdir /S /Q C:\PROJETOS\php-projeto\vendor\composer\1ddef3da
+Downloading https://packagist.org/downloads/
+[201] https://packagist.org/downloads/
+Generating optimized autoload files
+> post-autoload-dump: Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> post-autoload-dump: @php artisan package:discover --ansi
+Executing command (CWD): C:\tools\php83\php.exe -d allow_url_fopen=1 -d disable_functions="" -d memory_limit=1536M artisan package:discover --ansi
+
+  [37;44m INFO [39;49m Discovering packages.  
+
+  laravel/pail [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/sail [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/tinker [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nesbot/carbon [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nunomaduro/collision [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nunomaduro/termwind [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+
+80 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
